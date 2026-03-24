@@ -1,0 +1,589 @@
+/* ============================================================
+   BARRISTER LANDING PAGE — CUSTOM CSS
+   Paste in: Elementor > Custom CSS  OR  Appearance > Customize > Additional CSS
+   ============================================================ */
+
+/* ── GOOGLE FONTS ──────────────────────────────────────────── */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap');
+
+/* ── CSS VARIABLES ─────────────────────────────────────────── */
+:root {
+  --gold:        #B8955A;
+  --gold-light:  #D4AF7A;
+  --gold-pale:   #F5EDD8;
+  --cream:       #FAF8F4;
+  --charcoal:    #1C1C1E;
+  --ink:         #2D2B28;
+  --muted:       #7A756E;
+  --stone:       #E8E3DC;
+}
+
+/* ============================================================
+   KEYFRAME ANIMATIONS
+   ============================================================ */
+
+/* Fade up — used on hero elements */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(28px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Gold line grow — used in authority section */
+@keyframes growLine {
+  from { transform: scaleX(0); }
+  to   { transform: scaleX(1); }
+}
+
+/* Shimmer sweep — used on CTA buttons */
+@keyframes shimmer {
+  0%   { transform: translateX(-110%) skewX(-15deg); }
+  100% { transform: translateX(210%)  skewX(-15deg); }
+}
+
+/* Pulse ring — used on video play button */
+@keyframes pulseRing {
+  0%   { transform: scale(1);    opacity: 0.6; }
+  100% { transform: scale(1.75); opacity: 0;   }
+}
+
+/* Count-up glow — used on stats numbers */
+@keyframes statGlow {
+  0%   { color: var(--gold); text-shadow: 0 0 20px rgba(184,149,90,0.5); }
+  100% { color: inherit;     text-shadow: none; }
+}
+
+/* Section entrance — generic scroll reveal */
+@keyframes sectionReveal {
+  from { opacity: 0; transform: translateY(32px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ============================================================
+   SECTION 1: HERO
+   ============================================================ */
+
+/* Staggered entrance on H1 */
+.elementor-section:first-of-type .elementor-widget-heading:first-child .elementor-heading-title {
+  animation: fadeUp 0.7s ease both;
+  animation-delay: 0.1s;
+}
+
+/* Subtext fade up */
+.elementor-section:first-of-type .elementor-widget-text-editor:first-of-type {
+  animation: fadeUp 0.7s ease both;
+  animation-delay: 0.25s;
+}
+
+/* Icon list fade up */
+.elementor-section:first-of-type .elementor-widget-icon-list {
+  animation: fadeUp 0.7s ease both;
+  animation-delay: 0.4s;
+}
+
+/* Hero CTA button — shimmer 2s after load */
+.elementor-section:first-of-type .elementor-widget-button .elementor-button {
+  animation: fadeUp 0.7s ease both;
+  animation-delay: 0.55s;
+  position: relative;
+  overflow: hidden;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.elementor-section:first-of-type .elementor-widget-button .elementor-button::after {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 45%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.18), transparent);
+  transform: translateX(-110%) skewX(-15deg);
+  animation: shimmer 0.7s ease 2s both;
+}
+
+.elementor-section:first-of-type .elementor-widget-button .elementor-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(28,28,30,0.25);
+}
+
+/* ── STATS BAR (the row with 600+, 97%, 8 Yrs, £0) ── */
+/* Targets heading widgets in the stats row */
+.elementor-section .elementor-widget-heading .elementor-heading-title strong,
+.elementor-section .elementor-widget-heading .elementor-heading-title b {
+  color: var(--gold);
+}
+
+/* Stats count-up glow when visible */
+.elementor-widget-heading.is-animated .elementor-heading-title {
+  animation: statGlow 1.2s ease both;
+}
+
+/* Gold italic underline in hero H1 */
+.elementor-section:first-of-type h1 em,
+.elementor-section:first-of-type h1 i {
+  color: var(--gold);
+  font-style: italic;
+  background-image: linear-gradient(var(--gold), var(--gold));
+  background-size: 100% 1.5px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  padding-bottom: 2px;
+}
+
+/* ============================================================
+   SECTION 2: PROBLEM / QUESTION LIST
+   ============================================================ */
+
+/* Hover highlight on each icon-list item */
+.elementor-widget-icon-list .elementor-icon-list-item {
+  transition: all 0.2s ease;
+  padding: 10px 12px;
+  margin: 0 -12px;
+  border-radius: 4px;
+  border-left: 3px solid transparent;
+}
+
+.elementor-widget-icon-list .elementor-icon-list-item:hover {
+  background: var(--gold-pale);
+  border-left-color: var(--gold);
+  transform: translateX(4px);
+}
+
+.elementor-widget-icon-list .elementor-icon-list-item:hover .elementor-icon-list-text {
+  color: var(--ink);
+}
+
+/* ============================================================
+   SECTION 3: AUTHORITY (DARK BG)
+   ============================================================ */
+
+/* Gold reveal divider — grows on scroll */
+.elementor-widget-divider .elementor-divider-separator {
+  transform-origin: left center;
+  transition: transform 0.8s ease;
+}
+
+.elementor-widget-divider.is-animated .elementor-divider-separator {
+  animation: growLine 0.8s ease both;
+}
+
+/* Stagger text paragraphs in dark section */
+.elementor-section[data-bg-color="#1C1C1E"] .elementor-widget-text-editor:nth-child(1) { animation-delay: 0.1s; }
+.elementor-section[data-bg-color="#1C1C1E"] .elementor-widget-text-editor:nth-child(2) { animation-delay: 0.25s; }
+.elementor-section[data-bg-color="#1C1C1E"] .elementor-widget-text-editor:nth-child(3) { animation-delay: 0.4s; }
+.elementor-section[data-bg-color="#1C1C1E"] .elementor-widget-text-editor:nth-child(4) { animation-delay: 0.55s; }
+
+/* Left gold accent bar on the image column */
+.elementor-section:nth-of-type(3) > .elementor-container > .elementor-row > .elementor-column:first-child {
+  border-left: 3px solid var(--gold);
+}
+
+/* ============================================================
+   SECTION 4: CASE TYPE CARDS (ICON BOX)
+   ============================================================ */
+
+.elementor-widget-icon-box {
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+  cursor: default;
+}
+
+.elementor-widget-icon-box:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 48px rgba(28,28,30,0.1);
+  border-bottom-color: var(--gold) !important;
+  background: #FFFDF7;
+}
+
+/* Icon color transition to gold */
+.elementor-widget-icon-box .elementor-icon i,
+.elementor-widget-icon-box .elementor-icon svg {
+  transition: color 0.3s ease, filter 0.3s ease;
+}
+
+.elementor-widget-icon-box:hover .elementor-icon i {
+  color: var(--gold) !important;
+  filter: drop-shadow(0 2px 6px rgba(184,149,90,0.35));
+}
+
+/* Title color shift on hover */
+.elementor-widget-icon-box:hover .elementor-icon-box-title {
+  color: var(--gold) !important;
+}
+
+/* ============================================================
+   SECTION 5: FAQ ACCORDION
+   ============================================================ */
+
+/* Active accordion item — gold left border + pale bg */
+.elementor-accordion .elementor-tab-title.elementor-active {
+  border-left: 3px solid var(--gold) !important;
+  background: var(--gold-pale) !important;
+  color: var(--gold) !important;
+  padding-left: 18px !important;
+  transition: all 0.3s ease;
+}
+
+.elementor-accordion .elementor-tab-title {
+  transition: all 0.3s ease;
+  border-left: 3px solid transparent;
+  padding-left: 18px;
+}
+
+.elementor-accordion .elementor-tab-title:hover {
+  color: var(--gold) !important;
+  border-left-color: rgba(184,149,90,0.4);
+  background: rgba(245,237,216,0.4);
+}
+
+/* Smooth content reveal */
+.elementor-accordion .elementor-tab-content {
+  transition: max-height 0.35s ease, padding 0.35s ease;
+  border-left: 3px solid rgba(184,149,90,0.3) !important;
+  margin-left: 0;
+}
+
+/* FAQ icon rotation */
+.elementor-accordion .elementor-tab-title .elementor-accordion-icon {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.elementor-accordion .elementor-tab-title.elementor-active .elementor-accordion-icon {
+  transform: rotate(45deg);
+  color: var(--gold) !important;
+}
+
+/* ============================================================
+   SECTION 6: VIDEO — PULSE RING ON PLAY BUTTON
+   ============================================================ */
+
+.elementor-widget-video .elementor-custom-embed-play {
+  position: relative;
+}
+
+/* Pulse ring behind the play button */
+.elementor-widget-video .elementor-custom-embed-play i {
+  position: relative;
+  z-index: 2;
+  transition: transform 0.3s ease;
+}
+
+/* Main pulse ring using ::before */
+.elementor-widget-video .elementor-custom-embed-play::before {
+  content: '';
+  position: absolute;
+  top: 50%; left: 50%;
+  width: 70px; height: 70px;
+  margin: -35px 0 0 -35px;
+  border-radius: 50%;
+  border: 2px solid var(--gold);
+  animation: pulseRing 2s ease-out infinite;
+  z-index: 1;
+}
+
+/* Second delayed ring */
+.elementor-widget-video .elementor-custom-embed-play::after {
+  content: '';
+  position: absolute;
+  top: 50%; left: 50%;
+  width: 70px; height: 70px;
+  margin: -35px 0 0 -35px;
+  border-radius: 50%;
+  border: 2px solid var(--gold);
+  animation: pulseRing 2s ease-out 1s infinite;
+  z-index: 1;
+}
+
+.elementor-widget-video .elementor-custom-embed-play:hover i {
+  transform: scale(1.15);
+}
+
+/* ============================================================
+   SECTION 7: DISQUALIFICATION — HIGHLIGHT BLOCK
+   ============================================================ */
+
+/* Left gold border block styling */
+.elementor-widget-text-editor .wp-block-quote,
+.elementor-widget-text-editor blockquote {
+  border-left: 4px solid var(--gold);
+  padding-left: 20px;
+  color: var(--ink);
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  background: var(--gold-pale);
+  padding: 18px 20px 18px 24px;
+  border-radius: 0 4px 4px 0;
+}
+
+/* Disqualify icon-list — X mark style */
+.elementor-section .elementor-widget-icon-list .elementor-icon-list-icon i {
+  font-size: 14px;
+}
+
+/* ============================================================
+   SECTION 8: FORM — GOLD FOCUS STATES
+   ============================================================ */
+
+/* All form inputs — consistent styling */
+.elementor-form input[type="text"],
+.elementor-form input[type="email"],
+.elementor-form input[type="tel"],
+.elementor-form input[type="number"],
+.elementor-form textarea,
+.elementor-form select {
+  border: 1px solid var(--stone) !important;
+  border-radius: 0 !important;
+  background: var(--cream) !important;
+  color: var(--ink) !important;
+  font-family: 'DM Sans', sans-serif !important;
+  font-size: 14px !important;
+  padding: 14px 16px !important;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease, background 0.25s ease !important;
+  outline: none !important;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+/* Gold focus glow */
+.elementor-form input[type="text"]:focus,
+.elementor-form input[type="email"]:focus,
+.elementor-form input[type="tel"]:focus,
+.elementor-form input[type="number"]:focus,
+.elementor-form textarea:focus,
+.elementor-form select:focus {
+  border-color: var(--gold) !important;
+  background: #FFFFFF !important;
+  box-shadow: 0 0 0 3px rgba(184,149,90,0.12), 0 2px 8px rgba(184,149,90,0.08) !important;
+  outline: none !important;
+}
+
+/* Form labels */
+.elementor-form .elementor-field-label {
+  font-family: 'DM Sans', sans-serif !important;
+  font-size: 11px !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.1em !important;
+  text-transform: uppercase !important;
+  color: var(--muted) !important;
+  margin-bottom: 6px !important;
+}
+
+/* Custom select arrow */
+.elementor-form select {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23B8955A' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E") !important;
+  background-repeat: no-repeat !important;
+  background-position: right 14px center !important;
+  padding-right: 36px !important;
+  cursor: pointer;
+}
+
+/* Submit button — shimmer effect */
+.elementor-form .elementor-button[type="submit"],
+.elementor-form .e-form__buttons .elementor-button {
+  position: relative !important;
+  overflow: hidden !important;
+  transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease !important;
+  font-family: 'DM Sans', sans-serif !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.1em !important;
+  text-transform: uppercase !important;
+  border-radius: 0 !important;
+}
+
+.elementor-form .elementor-button[type="submit"]::after,
+.elementor-form .e-form__buttons .elementor-button::after {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 40%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.15), transparent);
+  transform: translateX(-110%) skewX(-15deg);
+  transition: none;
+}
+
+.elementor-form .elementor-button[type="submit"]:hover::after,
+.elementor-form .e-form__buttons .elementor-button:hover::after {
+  animation: shimmer 0.55s ease forwards;
+}
+
+.elementor-form .elementor-button[type="submit"]:hover,
+.elementor-form .e-form__buttons .elementor-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 28px rgba(28,28,30,0.25) !important;
+}
+
+/* ============================================================
+   SECTION 9: FINAL CTA — SHIMMER GOLD BUTTON
+   ============================================================ */
+
+/* Targets the last section's button */
+.elementor-section:last-of-type .elementor-widget-button .elementor-button,
+.elementor-section:nth-last-of-type(2) .elementor-widget-button .elementor-button {
+  position: relative;
+  overflow: hidden;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+/* Auto-shimmer every 3s — draws eye even without hover */
+.elementor-section:last-of-type .elementor-widget-button .elementor-button::after,
+.elementor-section:nth-last-of-type(2) .elementor-widget-button .elementor-button::after {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 40%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+  transform: translateX(-110%) skewX(-15deg);
+  animation: shimmer 0.65s ease 3s infinite;
+  animation-delay: 3s;
+}
+
+.elementor-section:last-of-type .elementor-widget-button .elementor-button:hover,
+.elementor-section:nth-last-of-type(2) .elementor-widget-button .elementor-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 28px rgba(0,0,0,0.3);
+}
+
+/* Gold top-accent line on the final dark section */
+.elementor-section:last-of-type,
+.elementor-section:nth-last-of-type(2) {
+  border-top: 2px solid var(--gold);
+}
+
+/* ============================================================
+   GLOBAL SCROLL REVEAL
+   ============================================================ */
+
+/* Applied via JS (see below) — elements fade in as they enter viewport */
+.reveal-on-scroll {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.65s ease, transform 0.65s ease;
+}
+
+.reveal-on-scroll.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ============================================================
+   GLOBAL TYPOGRAPHY REFINEMENTS
+   ============================================================ */
+
+/* All section headings */
+.elementor-widget-heading h2 {
+  font-family: 'Cormorant Garamond', serif !important;
+  font-weight: 400 !important;
+  letter-spacing: -0.01em !important;
+  line-height: 1.2 !important;
+}
+
+/* Body text */
+.elementor-widget-text-editor,
+.elementor-widget-text-editor p {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 300;
+  line-height: 1.75;
+}
+
+/* Eyebrow labels (small uppercase text) */
+.elementor-widget-heading p,
+.elementor-widget-heading .elementor-heading-title[style*="uppercase"] {
+  font-family: 'DM Sans', sans-serif !important;
+  letter-spacing: 0.15em !important;
+}
+
+/* ============================================================
+   MOBILE OPTIMISATIONS
+   ============================================================ */
+
+@media (max-width: 767px) {
+  /* Disable hover transforms on mobile */
+  .elementor-widget-icon-box:hover {
+    transform: none;
+  }
+
+  /* Tighten hero heading */
+  .elementor-section:first-of-type h1 {
+    font-size: 2rem !important;
+  }
+
+  /* Make CTA full width on mobile */
+  .elementor-widget-button .elementor-button {
+    width: 100% !important;
+    text-align: center !important;
+  }
+
+  /* Pulse ring — slightly smaller on mobile */
+  .elementor-widget-video .elementor-custom-embed-play::before,
+  .elementor-widget-video .elementor-custom-embed-play::after {
+    width: 56px;
+    height: 56px;
+    margin: -28px 0 0 -28px;
+  }
+
+  /* Form fields — full width on mobile */
+  .elementor-form .elementor-field-group {
+    width: 100% !important;
+  }
+}
+
+/* ============================================================
+   SCROLL REVEAL — JAVASCRIPT
+   Paste this in a Custom HTML widget OR in functions.php
+   ============================================================ */
+
+/*
+   Add this script to an Elementor HTML widget at the top of the page:
+
+   <script>
+   document.addEventListener('DOMContentLoaded', function () {
+     var io = new IntersectionObserver(function (entries) {
+       entries.forEach(function (e) {
+         if (e.isIntersecting) {
+           e.target.classList.add('is-visible');
+           io.unobserve(e.target);
+         }
+       });
+     }, { threshold: 0.12 });
+
+     document.querySelectorAll(
+       '.elementor-widget-heading,' +
+       '.elementor-widget-text-editor,' +
+       '.elementor-widget-icon-box,' +
+       '.elementor-widget-image,' +
+       '.elementor-widget-accordion,' +
+       '.elementor-widget-video,' +
+       '.elementor-widget-button'
+     ).forEach(function (el) {
+       el.classList.add('reveal-on-scroll');
+       io.observe(el);
+     });
+
+     // Stats count-up animation
+     document.querySelectorAll('.elementor-widget-heading').forEach(function (el) {
+       var text = el.innerText;
+       var num = text.match(/\d+/);
+       if (!num) return;
+       var io2 = new IntersectionObserver(function (entries) {
+         if (!entries[0].isIntersecting) return;
+         io2.unobserve(el);
+         var target = parseInt(num[0]);
+         var start = 0;
+         var duration = 1400;
+         var step = (timestamp) => {
+           if (!start) start = timestamp;
+           var progress = Math.min((timestamp - start) / duration, 1);
+           var eased = 1 - Math.pow(1 - progress, 3);
+           el.querySelector('.elementor-heading-title').setAttribute('data-count', Math.floor(eased * target));
+           if (progress < 1) requestAnimationFrame(step);
+           else el.classList.add('is-animated');
+         };
+         requestAnimationFrame(step);
+       }, { threshold: 0.5 });
+       io2.observe(el);
+     });
+   });
+   </script>
+*/
