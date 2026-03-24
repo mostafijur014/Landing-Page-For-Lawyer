@@ -1,0 +1,2302 @@
+{
+  "version": "0.4",
+  "title": "Divorce Barrister Landing Page",
+  "type": "page",
+  "content": [
+    {
+      "id": "b1dab4a",
+      "elType": "section",
+      "settings": {
+        "background_color": "#FAF8F4",
+        "padding": {
+          "unit": "px",
+          "top": "100",
+          "right": "60",
+          "bottom": "80",
+          "left": "60",
+          "isLinked": false
+        },
+        "gap": "extended"
+      },
+      "elements": [
+        {
+          "id": "7217855",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50
+          },
+          "elements": [
+            {
+              "id": "a6d0ed2",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Specialist UK Barrister",
+                "header_size": "p",
+                "align": "left",
+                "title_color": "#B8955A",
+                "typography_typography": "custom",
+                "typography_font_family": "DM Sans",
+                "typography_font_weight": "500",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 11
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 2.5
+                },
+                "typography_text_transform": "uppercase",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "16",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "2209826",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Divorce Involving Significant Assets Requires Strategic Handling — Not Generic Advice",
+                "header_size": "h1",
+                "align": "left",
+                "typography_typography": "custom",
+                "typography_font_family": "Cormorant Garamond",
+                "typography_font_weight": "400",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 46
+                },
+                "typography_font_style": "normal",
+                "title_color": "#1C1C1E",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "24",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "63baa8c",
+              "elType": "widget",
+              "widgetType": "divider",
+              "settings": {
+                "style": "solid",
+                "weight": {
+                  "unit": "px",
+                  "size": 2
+                },
+                "color": "#B8955A",
+                "width": {
+                  "unit": "%",
+                  "size": 30
+                },
+                "align": "left",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "24",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "2e9d805",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>If your situation involves property, business interests, or complex financial arrangements, understanding your position early can make a substantial difference to the outcome.</p>",
+                "text_color": "#7A756E",
+                "typography_typography": "custom",
+                "typography_font_family": "DM Sans",
+                "typography_font_weight": "300",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.75
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "28",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "8cce56d",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p><strong style='color:#2D2B28;font-family:DM Sans;'>Specialist Divorce Barrister</strong> handling complex and high-value cases across the UK.</p>",
+                "text_color": "#1C1C1E",
+                "typography_typography": "custom",
+                "typography_font_family": "DM Sans",
+                "typography_font_weight": "300",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 15
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.75
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "24",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "69e5717",
+              "elType": "widget",
+              "widgetType": "icon-list",
+              "settings": {
+                "icon_list": [
+                  {
+                    "id": "1983f17",
+                    "text": "Business ownership and director interests",
+                    "selected_icon": {
+                      "value": "fas fa-circle",
+                      "library": "fa-solid"
+                    },
+                    "link": {
+                      "url": ""
+                    }
+                  },
+                  {
+                    "id": "15acbb1",
+                    "text": "Multiple properties or investment portfolios",
+                    "selected_icon": {
+                      "value": "fas fa-circle",
+                      "library": "fa-solid"
+                    },
+                    "link": {
+                      "url": ""
+                    }
+                  },
+                  {
+                    "id": "0498a7b",
+                    "text": "Complex financial arrangements",
+                    "selected_icon": {
+                      "value": "fas fa-circle",
+                      "library": "fa-solid"
+                    },
+                    "link": {
+                      "url": ""
+                    }
+                  }
+                ],
+                "space_between": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "icon_size": {
+                  "unit": "px",
+                  "size": 6
+                },
+                "icon_color": "#B8955A",
+                "text_color": "#1C1C1E",
+                "typography_font_family": "DM Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 15
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "30",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "98cc957",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Apply for a Confidential Case Review",
+                "link": {
+                  "url": "#apply"
+                },
+                "button_type": "info",
+                "size": "sm",
+                "background_color": "#1C1C1E",
+                "button_text_color": "#ffffff",
+                "typography_font_family": "DM Sans",
+                "typography_font_weight": "500",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 13
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 1.5
+                },
+                "typography_text_transform": "uppercase",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "18",
+                  "right": "36",
+                  "bottom": "18",
+                  "left": "36",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "6076d98",
+              "elType": "widget",
+              "widgetType": "spacer",
+              "settings": {
+                "space": {
+                  "unit": "px",
+                  "size": 10
+                }
+              }
+            },
+            {
+              "id": "2071b4b",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='font-size:12px;color:#7A756E;'>For individuals dealing with financially complex divorce situations.</p>",
+                "text_color": "#7A756E",
+                "typography_typography": "custom",
+                "typography_font_family": "DM Sans",
+                "typography_font_weight": "300",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 12
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.75
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "206a963",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50,
+            "background_color": "#E8E3DC"
+          },
+          "elements": [
+            {
+              "id": "f40b8a8",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "",
+                  "alt": "Specialist Divorce Barrister — Professional Photo"
+                },
+                "image_size": "full",
+                "height": {
+                  "unit": "px",
+                  "size": 580
+                },
+                "object_fit": "cover",
+                "width": {
+                  "unit": "%",
+                  "size": 100
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b6961c5",
+      "elType": "section",
+      "settings": {
+        "background_color": "#FFFEFB",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "60",
+          "bottom": "80",
+          "left": "60",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "9af0f0a",
+          "elType": "column",
+          "settings": {
+            "_column_size": 45
+          },
+          "elements": [
+            {
+              "id": "c113ea9",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Recognise This?",
+                "header_size": "p",
+                "align": "left",
+                "title_color": "#B8955A",
+                "typography_typography": "custom",
+                "typography_font_family": "DM Sans",
+                "typography_font_weight": "500",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 11
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 2.5
+                },
+                "typography_text_transform": "uppercase",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "16",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "01f4404",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "If you're facing any of the following, you're not alone",
+                "header_size": "h2",
+                "align": "left",
+                "typography_typography": "custom",
+                "typography_font_family": "Cormorant Garamond",
+                "typography_font_weight": "400",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 36
+                },
+                "typography_font_style": "normal",
+                "title_color": "#1C1C1E",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "16",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "b317c23",
+              "elType": "widget",
+              "widgetType": "divider",
+              "settings": {
+                "style": "solid",
+                "weight": {
+                  "unit": "px",
+                  "size": 2
+                },
+                "color": "#B8955A",
+                "width": {
+                  "unit": "%",
+                  "size": 30
+                },
+                "align": "left",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "24",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "52ff464",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Many individuals in financially complex situations find themselves asking the same questions. The approach taken early can have long-term consequences.</p>",
+                "text_color": "#7A756E",
+                "typography_typography": "custom",
+                "typography_font_family": "DM Sans",
+                "typography_font_weight": "300",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 15
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.75
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "72eec79",
+          "elType": "column",
+          "settings": {
+            "_column_size": 55
+          },
+          "elements": [
+            {
+              "id": "f59fe0a",
+              "elType": "widget",
+              "widgetType": "icon-list",
+              "settings": {
+                "icon_list": [
+                  {
+                    "id": "8f906e8",
+                    "text": "How will assets actually be divided?",
+                    "selected_icon": {
+                      "value": "fas fa-circle",
+                      "library": "fa-solid"
+                    },
+                    "link": {
+                      "url": ""
+                    }
+                  },
+                  {
+                    "id": "66e88e1",
+                    "text": "What happens to a business during divorce?",
+                    "selected_icon": {
+                      "value": "fas fa-circle",
+                      "library": "fa-solid"
+                    },
+                    "link": {
+                      "url": ""
+                    }
+                  },
+                  {
+                    "id": "f9806cf",
+                    "text": "Should I take action now, or wait?",
+                    "selected_icon": {
+                      "value": "fas fa-circle",
+                      "library": "fa-solid"
+                    },
+                    "link": {
+                      "url": ""
+                    }
+                  },
+                  {
+                    "id": "1b9fe38",
+                    "text": "What mistakes should I avoid early on?",
+                    "selected_icon": {
+                      "value": "fas fa-circle",
+                      "library": "fa-solid"
+                    },
+                    "link": {
+                      "url": ""
+                    }
+                  },
+                  {
+                    "id": "aac7639",
+                    "text": "How do I understand my true financial position?",
+                    "selected_icon": {
+                      "value": "fas fa-circle",
+                      "library": "fa-solid"
+                    },
+                    "link": {
+                      "url": ""
+                    }
+                  }
+                ],
+                "space_between": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "icon_size": {
+                  "unit": "px",
+                  "size": 6
+                },
+                "icon_color": "#B8955A",
+                "text_color": "#1C1C1E",
+                "typography_font_family": "DM Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 15
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "30",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "532a7d7",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p><em>These are not small decisions — and the approach taken early on can have long-term consequences.</em></p>",
+                "text_color": "#1C1C1E",
+                "typography_font_family": "Cormorant Garamond",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 18
+                },
+                "typography_font_style": "italic",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.6
+                },
+                "_padding": {
+                  "unit": "px",
+                  "top": "20",
+                  "right": "24",
+                  "bottom": "20",
+                  "left": "24",
+                  "isLinked": false
+                },
+                "background_color": "#F5EDD8",
+                "border_left_width": {
+                  "unit": "px",
+                  "size": 4
+                },
+                "border_color": "#B8955A",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "4",
+                  "isLinked": false
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7552734",
+      "elType": "section",
+      "settings": {
+        "background_color": "#1C1C1E",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "60",
+          "bottom": "80",
+          "left": "60",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "4b9adf2",
+          "elType": "column",
+          "settings": {
+            "_column_size": 45
+          },
+          "elements": [
+            {
+              "id": "c3c7f48",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "",
+                  "alt": "Barrister Professional Photo"
+                },
+                "image_size": "full",
+                "height": {
+                  "unit": "px",
+                  "size": 500
+                },
+                "object_fit": "cover",
+                "width": {
+                  "unit": "%",
+                  "size": 100
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "1755e87",
+          "elType": "column",
+          "settings": {
+            "_column_size": 55
+          },
+          "elements": [
+            {
+              "id": "9ca22cd",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Approach",
+                "header_size": "p",
+                "align": "left",
+                "title_color": "#B8955A",
+                "typography_typography": "custom",
+                "typography_font_family": "DM Sans",
+                "typography_font_weight": "500",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 11
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 2.5
+                },
+                "typography_text_transform": "uppercase",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "16",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "0fb97dd",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "A More Strategic Approach to Divorce",
+                "header_size": "h2",
+                "align": "left",
+                "typography_typography": "custom",
+                "typography_font_family": "Cormorant Garamond",
+                "typography_font_weight": "400",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 38
+                },
+                "typography_font_style": "normal",
+                "title_color": "#FFFEFB",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "24",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "a8d06a6",
+              "elType": "widget",
+              "widgetType": "divider",
+              "settings": {
+                "style": "solid",
+                "weight": {
+                  "unit": "px",
+                  "size": 2
+                },
+                "color": "#B8955A",
+                "width": {
+                  "unit": "%",
+                  "size": 20
+                },
+                "align": "left",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "24",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "5eeb97f",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>In cases involving significant assets, outcomes are rarely determined by paperwork alone.</p>",
+                "text_color": "#AAAAAA",
+                "typography_typography": "custom",
+                "typography_font_family": "DM Sans",
+                "typography_font_weight": "300",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 15
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.75
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "20",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "7abaf0d",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>They are shaped by <strong style='color:#D4AF7A;'>timing, structure, and the decisions made</strong> before matters fully unfold.</p>",
+                "text_color": "#AAAAAA",
+                "typography_typography": "custom",
+                "typography_font_family": "DM Sans",
+                "typography_font_weight": "300",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 15
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.75
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "20",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "b39a59a",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Where businesses, property portfolios, or complex financial arrangements are involved, a more considered and strategic approach is often required.</p>",
+                "text_color": "#AAAAAA",
+                "typography_typography": "custom",
+                "typography_font_family": "DM Sans",
+                "typography_font_weight": "300",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 15
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.75
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "20",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "4db152f",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Understanding your position early allows for <strong style='color:#D4AF7A;'>clearer thinking</strong> — and can help avoid unnecessary financial exposure.</p>",
+                "text_color": "#AAAAAA",
+                "typography_typography": "custom",
+                "typography_font_family": "DM Sans",
+                "typography_font_weight": "300",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 15
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.75
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6ec7fa4",
+      "elType": "section",
+      "settings": {
+        "background_color": "#FAF8F4",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "60",
+          "bottom": "80",
+          "left": "60",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "20a2fb0",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "98d26ee",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Case Types",
+                "header_size": "p",
+                "align": "left",
+                "title_color": "#B8955A",
+                "typography_typography": "custom",
+                "typography_font_family": "DM Sans",
+                "typography_font_weight": "500",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 11
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 2.5
+                },
+                "typography_text_transform": "uppercase",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "16",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "4fe9e6c",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Cases Often Involve",
+                "header_size": "h2",
+                "align": "center",
+                "typography_typography": "custom",
+                "typography_font_family": "Cormorant Garamond",
+                "typography_font_weight": "400",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 38
+                },
+                "typography_font_style": "normal",
+                "title_color": "#1C1C1E",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "8",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "5a38dbb",
+              "elType": "widget",
+              "widgetType": "spacer",
+              "settings": {
+                "space": {
+                  "unit": "px",
+                  "size": 8
+                }
+              }
+            },
+            {
+              "id": "a6ce5c1",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='text-align:center;'>This is not a volume-based service. Each case is approached with careful individual consideration.</p>",
+                "text_color": "#7A756E",
+                "typography_typography": "custom",
+                "typography_font_family": "DM Sans",
+                "typography_font_weight": "300",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 15
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.75
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "40",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3f0824c",
+      "elType": "section",
+      "settings": {
+        "background_color": "#FAF8F4",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "60",
+          "bottom": "80",
+          "left": "60",
+          "isLinked": false
+        },
+        "gap": "no"
+      },
+      "elements": [
+        {
+          "id": "ae37bd1",
+          "elType": "column",
+          "settings": {
+            "_column_size": 25
+          },
+          "elements": [
+            {
+              "id": "12cc474",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-briefcase",
+                  "library": "fa-solid"
+                },
+                "icon_size": {
+                  "unit": "px",
+                  "size": 32
+                },
+                "icon_color": "#B8955A",
+                "icon_padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "20",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "title_text": "Business Ownership & Director Interests",
+                "description_text": "Where business stakes form part of the overall financial picture.",
+                "title_size": "h3",
+                "title_color": "#1C1C1E",
+                "description_color": "#7A756E",
+                "title_typography_font_family": "Cormorant Garamond",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 20
+                },
+                "title_typography_font_weight": "500",
+                "description_typography_font_family": "DM Sans",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "description_typography_line_height": {
+                  "unit": "em",
+                  "size": 1.65
+                },
+                "_padding": {
+                  "unit": "px",
+                  "top": "32",
+                  "right": "24",
+                  "bottom": "32",
+                  "left": "24",
+                  "isLinked": false
+                },
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "3",
+                  "left": "1",
+                  "isLinked": false
+                },
+                "border_color": "#E8E3DC",
+                "hover_border_color": "#B8955A",
+                "background_color": "#FFFEFB"
+              }
+            }
+          ]
+        },
+        {
+          "id": "253dbce",
+          "elType": "column",
+          "settings": {
+            "_column_size": 25
+          },
+          "elements": [
+            {
+              "id": "038e446",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-building",
+                  "library": "fa-solid"
+                },
+                "icon_size": {
+                  "unit": "px",
+                  "size": 32
+                },
+                "icon_color": "#B8955A",
+                "icon_padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "20",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "title_text": "Property Portfolios & Investment Assets",
+                "description_text": "Multiple properties or substantial investment holdings requiring careful handling.",
+                "title_size": "h3",
+                "title_color": "#1C1C1E",
+                "description_color": "#7A756E",
+                "title_typography_font_family": "Cormorant Garamond",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 20
+                },
+                "title_typography_font_weight": "500",
+                "description_typography_font_family": "DM Sans",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "description_typography_line_height": {
+                  "unit": "em",
+                  "size": 1.65
+                },
+                "_padding": {
+                  "unit": "px",
+                  "top": "32",
+                  "right": "24",
+                  "bottom": "32",
+                  "left": "24",
+                  "isLinked": false
+                },
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "3",
+                  "left": "1",
+                  "isLinked": false
+                },
+                "border_color": "#E8E3DC",
+                "hover_border_color": "#B8955A",
+                "background_color": "#FFFEFB"
+              }
+            }
+          ]
+        },
+        {
+          "id": "6ce3ed5",
+          "elType": "column",
+          "settings": {
+            "_column_size": 25
+          },
+          "elements": [
+            {
+              "id": "7e302cc",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-chart-line",
+                  "library": "fa-solid"
+                },
+                "icon_size": {
+                  "unit": "px",
+                  "size": 32
+                },
+                "icon_color": "#B8955A",
+                "icon_padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "20",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "title_text": "High Income & Complex Financial Structures",
+                "description_text": "Significant earnings, trusts, or intricate financial arrangements.",
+                "title_size": "h3",
+                "title_color": "#1C1C1E",
+                "description_color": "#7A756E",
+                "title_typography_font_family": "Cormorant Garamond",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 20
+                },
+                "title_typography_font_weight": "500",
+                "description_typography_font_family": "DM Sans",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "description_typography_line_height": {
+                  "unit": "em",
+                  "size": 1.65
+                },
+                "_padding": {
+                  "unit": "px",
+                  "top": "32",
+                  "right": "24",
+                  "bottom": "32",
+                  "left": "24",
+                  "isLinked": false
+                },
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "3",
+                  "left": "1",
+                  "isLinked": false
+                },
+                "border_color": "#E8E3DC",
+                "hover_border_color": "#B8955A",
+                "background_color": "#FFFEFB"
+              }
+            }
+          ]
+        },
+        {
+          "id": "259a551",
+          "elType": "column",
+          "settings": {
+            "_column_size": 25
+          },
+          "elements": [
+            {
+              "id": "9ab4d84",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-shield-alt",
+                  "library": "fa-solid"
+                },
+                "icon_size": {
+                  "unit": "px",
+                  "size": 32
+                },
+                "icon_color": "#B8955A",
+                "icon_padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "20",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "title_text": "Situations Requiring Discretion",
+                "description_text": "High-profile or sensitive cases where careful, confidential handling is essential.",
+                "title_size": "h3",
+                "title_color": "#1C1C1E",
+                "description_color": "#7A756E",
+                "title_typography_font_family": "Cormorant Garamond",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 20
+                },
+                "title_typography_font_weight": "500",
+                "description_typography_font_family": "DM Sans",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "description_typography_line_height": {
+                  "unit": "em",
+                  "size": 1.65
+                },
+                "_padding": {
+                  "unit": "px",
+                  "top": "32",
+                  "right": "24",
+                  "bottom": "32",
+                  "left": "24",
+                  "isLinked": false
+                },
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "3",
+                  "left": "1",
+                  "isLinked": false
+                },
+                "border_color": "#E8E3DC",
+                "hover_border_color": "#B8955A",
+                "background_color": "#FFFEFB"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d02a1e1",
+      "elType": "section",
+      "settings": {
+        "background_color": "#FFFEFB",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "60",
+          "bottom": "80",
+          "left": "60",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "9940bf6",
+          "elType": "column",
+          "settings": {
+            "_column_size": 35
+          },
+          "elements": [
+            {
+              "id": "26f509d",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Common Questions",
+                "header_size": "p",
+                "align": "left",
+                "title_color": "#B8955A",
+                "typography_typography": "custom",
+                "typography_font_family": "DM Sans",
+                "typography_font_weight": "500",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 11
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 2.5
+                },
+                "typography_text_transform": "uppercase",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "16",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "0a5d3f1",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Frequently Asked",
+                "header_size": "h2",
+                "align": "left",
+                "typography_typography": "custom",
+                "typography_font_family": "Cormorant Garamond",
+                "typography_font_weight": "400",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 36
+                },
+                "typography_font_style": "normal",
+                "title_color": "#1C1C1E",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "16",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "cf6f83a",
+              "elType": "widget",
+              "widgetType": "divider",
+              "settings": {
+                "style": "solid",
+                "weight": {
+                  "unit": "px",
+                  "size": 2
+                },
+                "color": "#B8955A",
+                "width": {
+                  "unit": "%",
+                  "size": 25
+                },
+                "align": "left",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "24",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "e394902",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Understanding your legal position should not require speaking with a solicitor first. These answers provide a starting point.</p>",
+                "text_color": "#7A756E",
+                "typography_typography": "custom",
+                "typography_font_family": "DM Sans",
+                "typography_font_weight": "300",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 15
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.75
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "b84522d",
+          "elType": "column",
+          "settings": {
+            "_column_size": 65
+          },
+          "elements": [
+            {
+              "id": "e6e02d0",
+              "elType": "widget",
+              "widgetType": "accordion",
+              "settings": {
+                "tabs": [
+                  {
+                    "id": "e28487d",
+                    "tab_title": "How are assets divided in a divorce in the UK?",
+                    "tab_content": "There is no fixed formula. The court considers a range of factors including financial contributions, future needs, and overall asset structure. In higher value cases, the details matter significantly. Each situation is assessed individually."
+                  },
+                  {
+                    "id": "81db2e6",
+                    "tab_title": "What happens to a business in a divorce?",
+                    "tab_content": "A business can form part of the financial settlement. The extent of its involvement depends on ownership structure, valuation, and how it fits into the wider financial picture. Early assessment is typically beneficial."
+                  },
+                  {
+                    "id": "a4a423a",
+                    "tab_title": "Can assets be protected before divorce?",
+                    "tab_content": "In certain situations, steps can be taken early on that may influence how assets are treated. Timing and structure are critical, and decisions should be made carefully with proper legal advice."
+                  },
+                  {
+                    "id": "af3f19d",
+                    "tab_title": "When should I seek legal advice?",
+                    "tab_content": "Often, the earlier you understand your position, the more options remain available. Waiting too long can significantly limit flexibility and may affect the range of strategies open to you."
+                  }
+                ],
+                "border_width": {
+                  "unit": "px",
+                  "size": 1
+                },
+                "border_color": "#E8E3DC",
+                "title_color": "#1C1C1E",
+                "title_active_color": "#B8955A",
+                "title_typography_font_family": "DM Sans",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 15
+                },
+                "title_typography_font_weight": "500",
+                "content_color": "#7A756E",
+                "content_typography_font_family": "DM Sans",
+                "content_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "content_typography_line_height": {
+                  "unit": "em",
+                  "size": 1.75
+                },
+                "icon_color": "#B8955A",
+                "icon_active_color": "#B8955A"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "08d6853",
+      "elType": "section",
+      "settings": {
+        "background_color": "#F5EDD8",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "60",
+          "bottom": "80",
+          "left": "60",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "e9ac49e",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "364937b",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Video Explanations",
+                "header_size": "p",
+                "align": "left",
+                "title_color": "#B8955A",
+                "typography_typography": "custom",
+                "typography_font_family": "DM Sans",
+                "typography_font_weight": "500",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 11
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 2.5
+                },
+                "typography_text_transform": "uppercase",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "16",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "545383a",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Clear Explanations — Available When You Need Them",
+                "header_size": "h2",
+                "align": "center",
+                "typography_typography": "custom",
+                "typography_font_family": "Cormorant Garamond",
+                "typography_font_weight": "400",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 36
+                },
+                "typography_font_style": "normal",
+                "title_color": "#1C1C1E",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "16",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "6317858",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='text-align:center;'>Short video explanations to help you understand key aspects of divorce involving assets, business interests, and financial arrangements.</p>",
+                "text_color": "#7A756E",
+                "typography_typography": "custom",
+                "typography_font_family": "DM Sans",
+                "typography_font_weight": "300",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 15
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.75
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "32",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "c652fed",
+              "elType": "widget",
+              "widgetType": "video",
+              "settings": {
+                "video_type": "youtube",
+                "youtube_url": "https://www.youtube.com/watch?v=PLACEHOLDER",
+                "show_image_overlay": "yes",
+                "image_overlay": {
+                  "url": ""
+                },
+                "lightbox": "no",
+                "aspect_ratio": "169",
+                "autoplay": "no"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dec4e04",
+      "elType": "section",
+      "settings": {
+        "background_color": "#FFFEFB",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "60",
+          "bottom": "80",
+          "left": "60",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "8a6ede6",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50
+          },
+          "elements": [
+            {
+              "id": "f1f54ba",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Suitability",
+                "header_size": "p",
+                "align": "left",
+                "title_color": "#B8955A",
+                "typography_typography": "custom",
+                "typography_font_family": "DM Sans",
+                "typography_font_weight": "500",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 11
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 2.5
+                },
+                "typography_text_transform": "uppercase",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "16",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "cd05b47",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "This May Not Be Suitable If",
+                "header_size": "h2",
+                "align": "left",
+                "typography_typography": "custom",
+                "typography_font_family": "Cormorant Garamond",
+                "typography_font_weight": "400",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 36
+                },
+                "typography_font_style": "normal",
+                "title_color": "#1C1C1E",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "16",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "f09779a",
+              "elType": "widget",
+              "widgetType": "divider",
+              "settings": {
+                "style": "solid",
+                "weight": {
+                  "unit": "px",
+                  "size": 2
+                },
+                "color": "#B8955A",
+                "width": {
+                  "unit": "%",
+                  "size": 25
+                },
+                "align": "left",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "24",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "59c38cb",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>This service is focused exclusively on cases where financial structure and outcome require careful, considered handling.</p>",
+                "text_color": "#7A756E",
+                "typography_typography": "custom",
+                "typography_font_family": "DM Sans",
+                "typography_font_weight": "300",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 15
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.75
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "24",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "76ec92f",
+              "elType": "widget",
+              "widgetType": "icon-list",
+              "settings": {
+                "icon_list": [
+                  {
+                    "id": "05680c0",
+                    "text": "You are looking for low-cost or quick divorce processing",
+                    "selected_icon": {
+                      "value": "fas fa-circle",
+                      "library": "fa-solid"
+                    },
+                    "link": {
+                      "url": ""
+                    }
+                  },
+                  {
+                    "id": "d0fb445",
+                    "text": "Your situation involves minimal assets or no financial complexity",
+                    "selected_icon": {
+                      "value": "fas fa-circle",
+                      "library": "fa-solid"
+                    },
+                    "link": {
+                      "url": ""
+                    }
+                  }
+                ],
+                "space_between": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "icon_size": {
+                  "unit": "px",
+                  "size": 6
+                },
+                "icon_color": "#B8955A",
+                "text_color": "#1C1C1E",
+                "typography_font_family": "DM Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 15
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "30",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "9d7e89c",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50
+          },
+          "elements": [
+            {
+              "id": "12be386",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<h3 style='font-family:Cormorant Garamond;font-size:24px;color:#1C1C1E;margin-bottom:12px;font-weight:500;'>A Focused, Specialist Service</h3><p>By limiting the scope of cases accepted, it becomes possible to give each situation the attention it deserves.</p><p style='margin-top:12px;'>If your case involves genuine financial complexity, this service is designed specifically for you.</p>",
+                "text_color": "#7A756E",
+                "typography_font_family": "DM Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 15
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.75
+                },
+                "_padding": {
+                  "unit": "px",
+                  "top": "36",
+                  "right": "36",
+                  "bottom": "36",
+                  "left": "36",
+                  "isLinked": false
+                },
+                "background_color": "#F5EDD8",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "4",
+                  "isLinked": false
+                },
+                "border_color": "#B8955A"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "569319b",
+      "elType": "section",
+      "settings": {
+        "background_color": "#FAF8F4",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "60",
+          "bottom": "80",
+          "left": "60",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "8ac7dbd",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "a08739f",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Confidential Enquiry",
+                "header_size": "p",
+                "align": "left",
+                "title_color": "#B8955A",
+                "typography_typography": "custom",
+                "typography_font_family": "DM Sans",
+                "typography_font_weight": "500",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 11
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 2.5
+                },
+                "typography_text_transform": "uppercase",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "16",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "d51bc0a",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Apply for a Confidential Case Review",
+                "header_size": "h2",
+                "align": "center",
+                "typography_typography": "custom",
+                "typography_font_family": "Cormorant Garamond",
+                "typography_font_weight": "400",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 36
+                },
+                "typography_font_style": "normal",
+                "title_color": "#1C1C1E",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "12",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "15206ab",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='text-align:center;'>If your situation involves assets, business interests, or financial complexity, you may apply for a confidential case review.</p>",
+                "text_color": "#7A756E",
+                "typography_typography": "custom",
+                "typography_font_family": "DM Sans",
+                "typography_font_weight": "300",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 15
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.75
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "40",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "56bc58e",
+      "elType": "section",
+      "settings": {
+        "background_color": "#FAF8F4",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "60",
+          "bottom": "80",
+          "left": "60",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "44c3aae",
+          "elType": "column",
+          "settings": {
+            "_column_size": 10
+          },
+          "elements": []
+        },
+        {
+          "id": "94c2d27",
+          "elType": "column",
+          "settings": {
+            "_column_size": 80,
+            "background_color": "#FFFEFB",
+            "_padding": {
+              "unit": "px",
+              "top": "48",
+              "right": "48",
+              "bottom": "48",
+              "left": "48",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "ed48827",
+              "elType": "widget",
+              "widgetType": "form",
+              "settings": {
+                "form_name": "Confidential Case Review",
+                "form_fields": [
+                  {
+                    "custom_id": "full_name",
+                    "field_type": "text",
+                    "field_label": "Full Name",
+                    "placeholder": "Your full name",
+                    "required": "yes",
+                    "width": "50",
+                    "field_id": "b2e12f0"
+                  },
+                  {
+                    "custom_id": "phone",
+                    "field_type": "tel",
+                    "field_label": "Phone Number",
+                    "placeholder": "+44 …",
+                    "required": "yes",
+                    "width": "50",
+                    "field_id": "c588e8e"
+                  },
+                  {
+                    "custom_id": "email",
+                    "field_type": "email",
+                    "field_label": "Email Address",
+                    "placeholder": "your@email.com",
+                    "required": "yes",
+                    "width": "100",
+                    "field_id": "03970ba"
+                  },
+                  {
+                    "custom_id": "situation",
+                    "field_type": "textarea",
+                    "field_label": "Brief Description of Your Situation",
+                    "placeholder": "Please briefly describe your situation — all information is treated in strict confidence…",
+                    "required": "no",
+                    "width": "100",
+                    "rows": 5,
+                    "field_id": "b96dfe4"
+                  },
+                  {
+                    "custom_id": "business_interests",
+                    "field_type": "select",
+                    "field_label": "Business Interests Involved?",
+                    "required": "no",
+                    "width": "50",
+                    "field_options": "Yes\nNo",
+                    "field_id": "3f481a3"
+                  },
+                  {
+                    "custom_id": "significant_assets",
+                    "field_type": "select",
+                    "field_label": "Significant Assets Involved?",
+                    "required": "no",
+                    "width": "50",
+                    "field_options": "Yes\nNo",
+                    "field_id": "62f71cf"
+                  },
+                  {
+                    "custom_id": "timeline",
+                    "field_type": "select",
+                    "field_label": "Your Current Situation",
+                    "required": "no",
+                    "width": "100",
+                    "field_options": "Urgent\nConsidering Options\nEarly Stage",
+                    "field_id": "f2a2ee0"
+                  }
+                ],
+                "submit_actions": [
+                  "email"
+                ],
+                "button_text": "Submit Confidential Application",
+                "button_background_color": "#1C1C1E",
+                "button_text_color": "#ffffff",
+                "button_typography_font_family": "DM Sans",
+                "button_typography_font_weight": "500",
+                "button_typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 1.5
+                },
+                "button_typography_text_transform": "uppercase",
+                "button_border_radius": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "button_padding": {
+                  "unit": "px",
+                  "top": "18",
+                  "right": "36",
+                  "bottom": "18",
+                  "left": "36",
+                  "isLinked": false
+                },
+                "input_border_color": "#E8E3DC",
+                "input_background_color": "#FAF8F4",
+                "input_color": "#1C1C1E",
+                "label_color": "#7A756E",
+                "label_typography_font_family": "DM Sans",
+                "label_typography_font_size": {
+                  "unit": "px",
+                  "size": 12
+                },
+                "label_typography_font_weight": "500",
+                "label_typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 1.2
+                },
+                "label_typography_text_transform": "uppercase",
+                "input_typography_font_family": "DM Sans",
+                "input_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "input_padding": {
+                  "unit": "px",
+                  "top": "13",
+                  "right": "16",
+                  "bottom": "13",
+                  "left": "16",
+                  "isLinked": false
+                },
+                "success_message": "Thank you. Your application has been received and will be handled in strict confidence.",
+                "email_to": "info@yoursite.com",
+                "email_subject": "New Confidential Case Review Application"
+              }
+            }
+          ]
+        },
+        {
+          "id": "c42ac7d",
+          "elType": "column",
+          "settings": {
+            "_column_size": 10
+          },
+          "elements": []
+        }
+      ]
+    },
+    {
+      "id": "5f77aab",
+      "elType": "section",
+      "settings": {
+        "background_color": "#1C1C1E",
+        "padding": {
+          "unit": "px",
+          "top": "96",
+          "right": "60",
+          "bottom": "96",
+          "left": "60",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "3b866bd",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "0b635ba",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Understanding your position early can make a significant difference",
+                "header_size": "h2",
+                "align": "center",
+                "typography_typography": "custom",
+                "typography_font_family": "Cormorant Garamond",
+                "typography_font_weight": "400",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 40
+                },
+                "typography_font_style": "italic",
+                "title_color": "#FFFEFB",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "16",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "b403a0e",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='text-align:center;'>Both financially and strategically — timing of legal advice in complex cases often proves decisive.</p>",
+                "text_color": "#888888",
+                "typography_typography": "custom",
+                "typography_font_family": "DM Sans",
+                "typography_font_weight": "300",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 15
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.75
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "40",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "ad62eeb",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Apply for a Confidential Case Review",
+                "link": {
+                  "url": "#apply"
+                },
+                "align": "center",
+                "background_color": "#B8955A",
+                "button_text_color": "#ffffff",
+                "typography_font_family": "DM Sans",
+                "typography_font_weight": "500",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 13
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 1.5
+                },
+                "typography_text_transform": "uppercase",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "18",
+                  "right": "44",
+                  "bottom": "18",
+                  "left": "44",
+                  "isLinked": false
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": {
+    "hide_title": "yes",
+    "template": "elementor_canvas"
+  }
+}
